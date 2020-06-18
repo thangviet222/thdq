@@ -1,0 +1,16 @@
+<div class="tieubieu">
+<swiper [config]="config">
+  <div class="swiper-wrapper">
+    <div [ngStyle]="{ 'background-image': 'url(' + image + ')'}"
+      class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+
+  </div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+  <!-- Add Arrows -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</swiper>
+</div>
